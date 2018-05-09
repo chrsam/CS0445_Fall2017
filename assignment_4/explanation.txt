@@ -1,0 +1,32 @@
+Question 1: What are the outputs for number of moves?
+
+Moves used in Merge Sort (large): 123829
+Moves used in Merge Sort (medium): 8833
+Moves used in Merge Sort (small): 562
+Moves used in Selection Sort (large): 9999
+Moves used in Selection Sort (medium): 999
+Moves used in Selection Sort (small): 99
+Moves used in Insertion Sort (large): 25172666
+Moves used in Insertion Sort (medium): 243673
+Moves used in Insertion Sort (small): 2541
+
+Question 2: What are the outputs for runtime?
+
+Runtime of Merge Sort (large): 2710888
+Runtime of Merge Sort (medium): 157894
+Runtime of Merge Sort (small): 19493
+Runtime of Selection Sort (large): 20795520
+Runtime of Selection Sort (medium): 245754
+Runtime of Selection Sort (small): 15450
+Runtime of Insertion Sort (large): 35229201
+Runtime of Insertion Sort (medium): 1210153
+Runtime of Insertion Sort (small): 29547
+
+Question 3: How do your results compare to your understanding of these algorithms?
+
+In comparison to my understanding, they seemed similar to my results. Merge Sort seems to 
+be the fastest of the three sorting algorithms, while Selection Sort takes the maximum
+amount of moves to complete. One thing that was different was that Merge Sort got faster 
+as the size got smaller.
+
+Question 4: If they are different, why do you think this is?

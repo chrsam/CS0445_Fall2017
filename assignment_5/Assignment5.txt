@@ -1,0 +1,27 @@
+/* Answers to Assignment 5 Questions:
+ * 
+ * 1) Why do we implement hashCode on individual objects, instead of centrally? For example,
+ * why don't we create a new class that implements hashCode for different objects, or 
+ * implement hashing functions in the hash table itself? 
+ *
+ * An efficient hashCode for one type of object may not be as efficient for a different
+ * object type. For an example, a hashCode meant for type Circle may create collisions for
+ * an object of type Triangle. 
+ *
+ * 2) Can you create a hashing function for an object that only has transient data?
+ * Why or why not?
+ * 
+ * You can't create a hashing function for an object that only has transient data because
+ * if a String (for example) uses as hashCode to point to specific information stored on a
+ * hash table, it will never point to that information again if the String somehow changes.
+ * 
+ * 3) Let's say we have an object that has limited variability in its data - say, only
+ * 1000 possible combinations of values. Can we create a hash code for such an object?
+ * Why or why not? (clue: what is necessary for an effective hash code?)
+ *
+ * Yes, it is possible to create a hash code for an object with limited variability. The 
+ * hash code will have to create 1000 unique values to account for each combination, and 
+ * will have to return the same value every time one specific combination is passed through
+ * the hash code method - making the method repeatable. 
+ *
+ */

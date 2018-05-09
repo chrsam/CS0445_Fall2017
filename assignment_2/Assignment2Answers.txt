@@ -1,0 +1,13 @@
+Question 1: array approach
+Question 2: array approach
+Question 3: array approach
+Question 4: linked approach
+Question 5: At first, the array approach seemed more efficient due to the fact
+  that its items were more easily accessible. As the stacks got larger, the
+  linked approach became more efficient as it did not have to incorporate
+  resizing into its work. I was surprised to see that the linked approach took
+  almost three times as much time to finish the "large push" test in comparison
+  to the array approach, as I thought taking into consideration the time cost
+  of resizing for the array approach would have a significant effect.
+Question 6: Linked approach is better for stacks with larger amounts of items,
+  while the array approach is better for stacks where the exact size is known.
