@@ -1,2 +1,2 @@
-# assignments from my "Data Structures" class
-#### (originally github-move)
+# CS0445_Fall2017
+Assignments from my CS0445 (Data Structures) Class
